@@ -58,3 +58,29 @@ hr {
 .navigation .link {
   color: white;
 }
+
+.hero {
+  padding: 0.5rem;
+}
+.hero .hero-image {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+.hero.hero-heading {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  color: #222831;
+}
+.hero .hero-heading .heading-inverted {
+  color: #419197;
+}
+.section {
+  padding: 1.5rem;
+}
+.section h1 {
+  text-align: center;
+}
+.ow {
+  background-color: #eeeeee;
+}
