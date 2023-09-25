@@ -84,3 +84,16 @@ hr {
 .ow {
   background-color: #eeeeee;
 }
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-radius: 0.25rem;
+}
+.footer .link {
+  color: white;
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
