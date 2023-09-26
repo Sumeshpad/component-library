@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 :root {
-  --primary-color: #393e46;
+  --primary-color: #3f72af;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -48,10 +48,11 @@ hr {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
-  border-radius: 0.3rem;
+  border-radius: 0 0 0.3rem 0.3rem;
 }
 .navigation .nav-brand {
   font-weight: bold;
+  font-size: x-large;
 }
 .navigation .nav-pills {
   text-align: right;
@@ -75,7 +76,7 @@ hr {
   color: #222831;
 }
 .hero .hero-heading .heading-inverted {
-  color: #419197;
+  color: #3f72af;
 }
 .section {
   padding: 1.5rem;
