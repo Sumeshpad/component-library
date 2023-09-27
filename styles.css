@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
 :root {
-  --primary-color: #3f72af;
+  --primary-color: #6e07f3;
 }
+
 body {
+  max-width: 95%;
+  margin: 0px auto;
   font-family: "Montserrat", sans-serif;
-  margin: 0px;
 }
 hr {
   margin: 2rem 0rem;
@@ -27,12 +32,12 @@ hr {
 }
 .primary-link {
   background-color: var(--primary-color);
-  border-radius: 0.3rem;
+  border-radius: 1.5rem;
   color: white;
 }
 .secondary-link {
   color: var(--primary-color);
-  border-radius: 0.3rem;
+  border-radius: 1.5rem;
   border: 1px solid var(--primary-color);
 }
 
@@ -48,11 +53,13 @@ hr {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
-  border-radius: 0 0 0.3rem 0.3rem;
+  border-radius: 0 0 1rem 1rem;
+  font-family: "Roboto", sans-serif;
 }
 .navigation .nav-brand {
   font-weight: bold;
-  font-size: x-large;
+  font-size: 32px;
+  font-family: "Alex Brush", cursive;
 }
 .navigation .nav-pills {
   text-align: right;
@@ -79,7 +86,10 @@ hr {
   color: #3f72af;
 }
 .section {
-  padding: 1.5rem;
+  padding: 2rem;
+  margin: 2rem, 0;
+  border-radius: 1rem;
+  text-align: center;
 }
 .section h1 {
   text-align: center;
